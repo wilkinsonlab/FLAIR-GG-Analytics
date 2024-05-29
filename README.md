@@ -1,12 +1,7 @@
-# JupyterLite Demo
-
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
-
-JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
 
 ## ✨ Try it in your browser ✨
 
-➡️ **https://jupyterlite.github.io/demo**
+➡️ **https://wilkinsonlab.github.io/FLAIR-GG-Analytics**
 
 ![github-pages](https://user-images.githubusercontent.com/591645/120649478-18258400-c47d-11eb-80e5-185e52ff2702.gif)
 
@@ -17,13 +12,11 @@ JupyterLite is being tested against modern web browsers:
 - Firefox 90+
 - Chromium 89+
 
-## Deploy your JupyterLite website on GitHub Pages
+## Getting Data
 
-Check out the guide on the JupyterLite documentation: https://jupyterlite.readthedocs.io/en/latest/quickstart/deploy.html
+The Virtual Platform is capable of doing federated queries/analytics over multiple partners. It then writes the output to a web-accesible filestore for you to retrieve.
 
-## Further Information and Updates
+The VP will give you a "secret key" that leads to the output from your federated execution. If you enter that secret key into the "XXX" near the beginning of the Jupyter Notebook,
+you will be able to import your data into the analytical environment and begin your study.
 
-For more info, keep an eye on the JupyterLite documentation:
-
-- How-to Guides: https://jupyterlite.readthedocs.io/en/latest/howto/index.html
-- Reference: https://jupyterlite.readthedocs.io/en/latest/reference/index.html
+Have fun!
